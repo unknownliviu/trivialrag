@@ -1,0 +1,43 @@
+# Sample Document for RAG Testing
+
+## Introduction
+
+This is a sample document to test the Retrieval-Augmented Generation (RAG) pipeline. RAG combines retrieval-based and generation-based approaches to provide more accurate and contextually relevant responses.
+
+## What is RAG?
+
+Retrieval-Augmented Generation (RAG) is a technique that enhances large language models by retrieving relevant information from external knowledge sources before generating responses. This approach helps to ground the model's outputs in factual information and reduces hallucinations.
+
+The key components of a RAG system include:
+
+1. Document processing and indexing
+2. Vector embeddings for semantic search
+3. Retrieval mechanism to find relevant context
+4. Generation model to produce coherent responses
+
+## Benefits of RAG
+
+RAG offers several advantages over traditional language models:
+
+- **Accuracy**: By grounding responses in retrieved information, RAG systems can provide more accurate answers.
+- **Up-to-date information**: The knowledge base can be updated independently of the language model.
+- **Transparency**: The system can cite sources for the information it provides.
+- **Reduced hallucinations**: The model is less likely to generate false information when it has relevant context.
+
+## Implementation Considerations
+
+When implementing a RAG system, consider the following factors:
+
+- **Embedding quality**: The quality of embeddings significantly affects retrieval performance.
+- **Chunking strategy**: How documents are split affects the granularity of retrieval.
+- **Retrieval algorithm**: Different similarity metrics may be more suitable for different types of content.
+- **Context window management**: Effectively utilizing the limited context window of the language model.
+
+## Example Use Cases
+
+RAG systems are particularly useful for:
+
+- Question answering over private or specialized documents
+- Customer support with access to product documentation
+- Research assistants that can reference academic papers
+- Legal or medical applications requiring accurate information retrieval 
